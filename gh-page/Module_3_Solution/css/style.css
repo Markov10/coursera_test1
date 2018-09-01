@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+.main-title {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	color: black;
+}
+a.main-title:hover {
+	text-decoration: none;
+}
+.navbar .navbar-header {
+	border-radius: 0;
+}
+.navbar-inverse {
+	background-color: grey;
+	border:1px solid black;
+}
+.navbar-inverse .navbar-brand {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	color: black;
+	background-color: grey;
+}
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus { 
+	background-color: grey;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus  {
+ border-color: lightgrey;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: black;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar {
+	background-color: lightgrey;
+}
+.navbar-inverse .navbar-nav {
+	background-color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	border : 2px solid black;
+	border-bottom: none;
+	color : black;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: grey;
+}
+div.container-fluid{
+	margin-left : 15px;
+	margin-right: 15px;
+}
+div.row{
+ background-color: grey;
+ margin-top: 40px;
+ border: 2px solid black;
+}
+div.p1, div.p2, div.p3 {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+.navbar {
+    border-radius: 0px;
+}
+}
+
+hr {
+	border-color: white;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
